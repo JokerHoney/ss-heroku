@@ -4,7 +4,7 @@
   "keywords": ["V2ray", "Shadowsocks", "V2Ray-plugin"],
   "env": {
      "ENCRYPT": {
-      "description": "加密方式，由于有https加持，选最简单的就可以，默认：rc4-md5,其它的有（aes-256-cfb,chacha20-ietf-poly1305,salsa20,chacha20-ietf等.）",
+      "description": "默认：rc4-md5,其它的有（aes-256-cfb,chacha20-ietf-poly1305,salsa20,chacha20-ietf等.）",
       "value": "rc4-md5"
     },
      "PASSWORD": {
@@ -13,12 +13,12 @@
     },
 
     "VER": {
-       "description": "v2ray-plugin版本，默认latest安装最新版本，可以去https://github.com/shadowsocks/v2ray-plugin/releasesV2Ray选择版本 （例如：1.1.0)",
+       "description": "v2ray-plugin版本，默认latest安装最新版本",
        "value": "latest"
      }, 
 
      "V2_Path": {
-      "description": "Path路径，默认/static,为了安全你也可以使用uuid替换static，/不能少。",
+      "description": "Path路径，默认/static,为了安全你也可以使用uuid替换static",
       "value": "/static"
     },
 
